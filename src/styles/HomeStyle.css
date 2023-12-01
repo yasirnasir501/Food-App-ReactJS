@@ -1,0 +1,109 @@
+.hero_section{
+    position: relative;
+    background: url('../assets//herosection.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 170px;
+    padding-bottom: 90px;
+}
+
+.price_badge{
+    background: url('../assets/pricebadge.png');
+    background-size: cover;
+    position: absolute;
+    top: -20px;
+    right: 5px;
+    width: 180px;
+    height: 176px;
+    text-align: center;
+}
+
+.badge_text{
+    width: 100%;
+    position: absolute;
+    top: 54%;
+    left: 2%;
+    transform: translateY(-50%);
+    color: var(--white);
+}
+
+.badge_text .h4_xs{
+    font-size: 1.875rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.badge_text .h3_lg{
+    font-size: 2.875rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.hero_text h1{
+    font-family: var(--lilita-font);
+    font-size: 7rem;
+    line-height: 1;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+
+.hero_text h2{
+    font-family: var(--lilita-font);
+    font-size: 2.5rem;
+    line-height: 1;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.hero_text p{
+    padding: 0 5%;
+}
+
+
+/* Home About Section */
+.about_section{
+    padding-top: 80px;
+    padding-bottom: 300px;
+    background: url('../assets/pizzafla.jpg');
+    background-size: cover;
+    width: 100%;
+}
+
+.about_section h2{
+    font-size: 3.5rem;
+    color: var(--white);
+}
+
+.about_section p{
+    color: var(--grey);
+    padding: 20px 30px;
+    font-size: 19px;
+}
+
+.about_wrapper{
+    background: var(--yellow);
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.about_box .about_icon img{
+    max-width: 25%;
+}
+
+.about_box h4{
+    font-size: 26px;
+    line-height: 1;
+    letter-spacing: 0.58px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.about_box p{
+    padding: 0 20px;
+}
+
+@media (max-width: 767px) {
+    .hero_text h1{
+        font-size: 5.5rem;
+    }
+}

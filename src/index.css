@@ -83,7 +83,7 @@ a {
 }
 
 /* Common Button */
-.order_now {
+.order_now{
   color: var(--light-black);
   background: var(--yellow);
   border-color: var(--yellow);
@@ -96,6 +96,7 @@ a {
   text-transform: uppercase;
   transition: all 0.3s ease-in-out;
 }
+
 .order_now:hover,
 .order_now:focus {
   color: var(--white);
